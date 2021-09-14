@@ -1,0 +1,25 @@
+body{
+    background-color: #cce0ff;
+}
+p{
+    font-size:22px;
+    text-align:justify;
+    font-family:'Gothic A1', sans-serif;
+    margin-left:350px;
+    margin-right:350px;
+}
+
+h2{
+    font-size:30px;
+    font-family:'Gothic A1', sans-serif;
+    margin-left:350px;
+    margin-right:350px;
+
+}
+.yt{
+    margin-top:50px;
+    margin-left:120px;
+}
+.par{
+    margin-top: 50px;
+}
