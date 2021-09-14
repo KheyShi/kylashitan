@@ -130,7 +130,10 @@ h1{
 
 footer{
     font-size: 25px;
-    margin-left:20px;
+    margin-left:45px;
     font-family:'Gothic A1', sans-serif;
     margin-bottom: 50px;
+}
+p{
+    text-align:justify;
 }
