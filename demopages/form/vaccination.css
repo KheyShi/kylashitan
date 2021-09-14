@@ -72,10 +72,12 @@ form.gender-details .gender-title{
 
  }
  .gender-details{
-display: table-cell;
-     vertical-align:middle;
+    display: table-cell;
+     vertical-align:middle left;
  }
 p{
     margin-bottom:20px;
 }
-
+#time{
+    width:99%;
+}
