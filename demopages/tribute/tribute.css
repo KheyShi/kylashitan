@@ -1,0 +1,108 @@
+body {
+    margin-top: 40px;
+    background-color: #edf2ed;
+  }
+
+.neil{
+  border-radius: 20px;
+  width:500px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.quote{
+  text-align: center;
+  margin-left:350px;
+  margin-right: 350px;
+  font-family:'Gothic A1', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+#navlist{
+  margin-top: 70px;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  list-style-type: none;
+  margin-right:10px;
+  
+}
+
+h1{
+  font-family:'Gothic A1', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  font-weight:bold;
+}
+.cap{
+  font-size: 25px;
+}
+a{
+  text-decoration: none !important;
+}
+
+p{
+  margin-left: 300px;
+  margin-right:300px;
+  font-family: 'Gothic A1', sans-serif;
+  text-align: justify;
+  font-style: bold;
+  font-size:22px;
+}
+
+h4{
+  font-family:'Gothic A1', sans-serif;
+  font-size:17px;
+}
+
+footer{
+  text-align: center;
+  font-family:'Gothic A1', sans-serif;
+  font-size:20px;
+}
+.bookCover{
+  width:250px;
+  height: 400px;
+}
+
+h2{
+  text-align:center;
+  font-family:'Gothic A1', sans-serif;
+  font-size: 40px;
+}
+
+h4{
+  font-family:'Gothic A1', sans-serif;
+  text-align: center;
+}
+
+.book{
+  transition: all .2s ease-in-out;
+}
+
+#firstbook{
+  margin-left:300px;
+}
+
+#lastbook{
+  margin-right:300px
+}
+
+.works{
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.book:hover{
+  transform: scale(1.1);
+}
+
+.subtitle{
+  margin-top:60px;
+}
+
+.res{
+  text-align: center;
+}
