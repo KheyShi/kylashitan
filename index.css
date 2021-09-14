@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #4c5152;
+    color: #000;
+    border-bottom: 3px solid gold;
+    width:100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top:0;
+    left:0;
+    font-weight: bold; 
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.navbar a.nav-logo{
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Gothic A1', sans-serif;
+    color: gold;
+    
+}
+
+.navbar ul{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.list:hover{
+    background-color: gold;
+}
+
+body{
+    background-color: #313535;
+}
+
+
+.content{
+    font-family: 'Gothic A1', sans-serif;
+    color: gold;
+    margin-top: 22%;
+    margin-left: 225px;
+    margin-right: 35px;
+    
+}
+h1{
+   
+    font-size: 65px;
+}
+h2{
+    margin-top: 60px;
+    font-size: 45px;
+}
+h3{
+    font-size: 45px;
+}
+p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: justify;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.buttons{
+    margin-top:20px;
+    font-size:18px;
+    background: #4c5152;
+    cursor: pointer;
+    color: white;
+    padding: 12px 20px;
+    float: left;
+    border: 0x;
+    border-radius: 20px;
+    margin-left:10px;
+
+
+}
+.buttons:hover{
+    background: #7c8384;
+}
+img{
+    margin-top: 30%;
+    margin-left:150px;
+    width:500px;
+    filter:grayscale(0);
+    border-bottom: 2px solid gold;
+    border-top: 2px solid gold;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+}
+img:hover{
+    transition: 3s;
+    cursor: pointer;
+}
