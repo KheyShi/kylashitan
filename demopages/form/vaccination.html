@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vaccination.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class= "title">COVID Vaccination Registration</div>
+        <form action="#">
+        <div class="User-details">
+            <div class="subformleft">
+            <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter Your Name" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Address</span>
+                <input type="text" placeholder="Enter Your Address" required>
+            <div class="input-box">
+                <span class="details">E-mail</span>
+                <input type="text" placeholder="Enter Your E-mail" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Phone number</span>
+                <input type="text" placeholder="Enter Your Number" maxlength="11" minlength="11" required>
+            </div>
+            <p>Sex</p>
+
+            <div class="gender-details">
+                
+                <input type="radio" name="gender" value="male" required> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Prefer not to say
+                </label>
+
+                </div>
+            
+        </div>
+        </div>
+            <div class=subform>
+            <div class="input-box">
+                <label for="date">Schedule</label>
+                <input type="date" placeholder="Enter a date" required>
+            </div>
+            <div class="input-box">
+            <label for="hour">Time</label>
+            <input type="time" placeholder="Enter a specific time" required>
+            <small>Vaccination hours are 8 am to 6pm</small>
+        </div>
+            <div class="input-box">
+                <label for="VacLocation" >Vaccination Faicility</label>
+                <select name="location" id="facility" required >
+                <option value="" disabled selected hidden> </option>
+                <option value="Gmall">Gaisano Mall</option>
+                <option value="SM">SM</option>
+                <option value="City Gym">City Gym</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <label for="VacBrand">Vaccine Brand</label>
+                <select name="VacBrand" id="brand" required>
+                <option value="" disabled selected hidden> </option>
+                <option value="Moderna">Moderna</option>
+                <option value="SM">Pfizer</option>
+                <option value="AstraZeneca">AstraZeneca</option>
+                <option value="Sinovac">Sinovac</option>
+                </select>
+            </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+
+        </div>
+        </div>
+        </form>
+        </div>
+        
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gothic A1', sans-serif
+}
+body{
+    display: flex;
+    height:100vh;
+    padding:10px;
+    justify-content:center;
+    align-items:center;
+    font-family:'Gothic A1', sans-serif;
+    background: linear-gradient(162deg, rgba(141,44,136,1) 9%, rgba(79,168,173,1) 83%);
+}
+.container{
+    max-width:450px;
+    width:100%;
+    height: 800px;
+    background-color: #f0e7e6;
+    padding: 25px 30px;
+    border-radius:5px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight:700;
+    position: relative;
+}
+.container .title::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:3px;
+    width: 30px;
+    background: linear-gradient(162deg, rgba(141,44,136,1) 9%, rgba(79,168,173,1) 83%);
+}
+.User-details{
+    margin-top:20px;
+    justify-content:center;
+}
+
+form .User-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100%/2 -20px);
+
+}
+
+.user-details .input-box .details{
+    font-weight:500;
+    margin-bottom:5px;
+}
+
+.User-details .input-box input{
+    height:30px;
+    width: 90%;
+    outline:none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left:15px;
+}
+.User-details .input-box input:focus, User-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+form.gender-details .gender-title{
+    font-size:20px;
+    font-weight:500;
+}
+ .gender-details .category label{
+     display:flex;
+     align-items:center;
+
+ }
+ .gender-details{
+display: table-cell;
+     vertical-align:middle;
+ }
+p{
+    margin-bottom:20px;
+}
+
