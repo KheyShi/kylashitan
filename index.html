@@ -1,165 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="myProfile.css">
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap" rel="stylesheet">
-    <script defer src="myyProfile.js"></script>
-    <title>Digital Portfolio</title>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  
 </head>
-<body>
-    <section>
-        <nav>
-        <a href="#" class="Keyshi">Keyshi</a>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#WorksSkills"> Works and Skills</a></li>
-            <li><a href="#ContactUs">Contact us</a></li>
-        </ul>
-        </nav>
-
-        <div class="text-con">
-            <p>Hello,</p>
-            <p>I'm Kyla Shitan</p>
-            <p>I am a Computer Science Student</p>
-            <button class="contact">Contact</button>
-            <button class="learn">Learn more</button>
-
+<body class="bg-light">
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a href="#" class="navbar-brand text-info fw-bold fs-4 logo">Keyshi
+          <svg viewBox="0 0 235.47 92.29">
+            <g data-name="Layer 2">
+              <g data-name="Layer 1">
+                </g>
+            </g>
+          </svg>
+        </a>
+        <div class="dropdown">
+          <button class="btn btn-info px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            <i class="fas fa-bars"></i>
+          </button>
+  
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a href="#home" class="dropdown-item">Home</a></li>
+            <li><a href="#about" class="dropdown-item">About</a></li>
+            <li><a href="#services" class="dropdown-item">Services</a></li>
+            <li><a href="#portfolio" class="dropdown-item">Portfolio</a></li>
+            <li><a href="#testimonials" class="dropdown-item">Testimonials</a></li>
+            <li><a href="#contact" class="dropdown-item">Contact</a></li>
+          </ul>
         </div>
-        <img src="pic kila.png" alt="kila pic" class="profile">
-
-        
+      </div>
+    </nav>
+  
+    <!-- Home Section -->
+    <section id="home" class="home py-5">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img src="pics/pic kila.png" class="profile-img bg-info rounded-circle mw-100" alt="profile img">
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text text-center text-md-start">
+              <p class="text-muted mb-1">Hello I'm A</p>
+              <h1 class="text-info text-uppercase fs-1 fw-bold">Computer Science Student</h1>
+              <h1 class="text-info text-uppercase fs-1 fw-bold"></h1>
+              <h2 class="fs-4">Kyla Shitan</h2>
+              <p class="mt-4 text-mted">I am currently studying at University of Immaculate Conception to get my Computer Science degree</p>
+              <a class="btn btn-lg btn-dark px-5 mt-3" href="#portfolio">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <div class="about-con" id="About">
-        <img src="kila2.png" alt="kila pic">
-        <div class="about-text">
-            <p>About Me</p>
-            <p>Computer Science Student</p>
-            <p>My name is Kyla Joy P. Shitan. I am a 19 year-old BS in Computer Science student
+  
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text text-center text-md-start">
+              <h3 class="fs-4 mb-3">-A Passionate Programmer</h3>
+              <p class="text-muted">My name is Kyla Joy P. Shitan. I am a 19 year-old BS in Computer Science student
                 studying at University of Immaculate Concepcion. I live in San Vicente, Panabo City,
                 Davao del Norte Philippines</p>
-            <p>I take up plenty of hobbies that interest me. I enjoy doing physical activities such
+              <p class="text-muted">I take up plenty of hobbies that interest me. I enjoy doing physical activities such
                 as sports and exercise. I play musical instruments as well. And to relieve stress,
-                 I read stories or play online games.</p>
-            <button>Contact</button>
-
-        </div>
-    </div>
-
-    <div class="works" id="WorksSkills">
-        <div class="work-text">
-        <p class=parWorks>Works and Skills</p>
-        </div>
-
-        <div class="box-con">
-            <div class="box-1">
-            <button class="buttn">Tribute Page</button>
-            <img src="tribute page.jpg" class="pic1"alt="">
-             </div>
-            <div class="box-2">
-                <button class="buttn">Gallery Page</button>
-            <img src="gallery.jpg" class="pic2" alt="">
-             </div>
-            <div class="box-3">
-                <button class="buttn">Form Page</button>
-            <img src="vaccform.jpg" class="pic3" alt="">
-             </div>
-        </div>
-        <br>
-        <div class="box2">
-        <div class="box-con">
-            <div class="box-1">
-                <button class="buttn">Restaurant Page</button>
-            <img src="restaurant.jpg" class="pic4"alt=""> </div>
-            <div class="box-2">
-                <button class="buttn">Poster</button>
-            <img src="Poster.jpg" class="pic5" alt=""> </div>
-            <div class="box-3">
-                <button class="buttn">Journalism</button>
-            <img src="journ.jpg" class="pic6" alt="">
+                 I read stories or play online games.</a>. </p>
+             
             </div>
-        </div>
-     </div>
-        <br>
-        <div class=box3>
-
-        <div class="box-con">
-            <div class="box-1">
-                <button class="buttn">Bible Enthusiast</button>
-            <img src="bible.jpg" class="pic7"alt="">
-             </div>
-            <div class="box-2">
-                <button class="buttn">Drawing</button>
-            <img src="butterfly.jpg" class="pic8" alt="">
-             </div>
-            <div class="box-3">
-                <button class="buttn">Music</button>
-            <video width="490px" height="760px" controls="controls"/> 
-                  
-                <source src="guit.mp4" 
-                    type="video/mp4"> 
-            </video> 
-             </div>
-        </div>
-    </div>
-    </div>
-<br>
-   
-
-    <div class="Cont" id="ContactUs">
-        <div class="work-text">
-            <p class=parWorks>Contact Me</p>
+  
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">73</h4>
+                  <p class="text-muted">Projects</p>
+                </div>
+              </div>
+  
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">5★</h4>
+                  <p class="text-muted">Rate</p>
+                </div>
+              </div>
+  
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">100%</h4>
+                  <p class="text-muted">Highly <br> Recommended</p>
+                </div>
+              </div>
             </div>
+          </div>
+  
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">HTML</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 60%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">CSS</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 45%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">JavaScript</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 80%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Graphic Design</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 93%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">C / C++</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 5%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Visual Graphics</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 90%;"></div>
+              </div>
+            </div>
+  
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Photo Editing</h3>
+              <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 83%;"></div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Service Section -->
+    <section id="services" class="services py-5">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Development</h3>
+              <p class="text-muted">I build websites using HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Visual Graphic Design</h3>
+              <p class="text-muted">I create business based designs and logos.</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3 class="fs-5 py-2">Database Programming</h3>
+              <p class="text-muted">I develop modern database applications.</p>
+            </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">My Projects</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="pics/mainwebsite.png" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">DenCityTracQR Landing Page</h3>
+              <p class="mb-4"><a href="https://kheyshi.github.io/kylashitan/webappidea/webappidea.html" class="text-info text-decoration-none">Visit</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="pics/restaurant.jpg" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Restaurant Website</h3>
+              <p class="mb-4"><a href="https://kheyshi.github.io/kylashitan/demopages/restaurant/myrestaurant.html" class="text-info text-decoration-none">Visit</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="pics/tribute page.jpg" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Tribute Page</h3>
+              <p class="mb-4"><a href="https://kheyshi.github.io/kylashitan/demopages/tribute/tribute.html" class="text-info text-decoration-none">Visit</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="pics/gallery.jpg" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Gallery Page</h3>
+              <p class="mb-4"><a href="https://kheyshi.github.io/kylashitan/demopages/gallery/gallery.html" class="text-info text-decoration-none">Visit</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 img-thumbnail" src="pics/ecmascript.png
+              " alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Review on EcmaScript</h3>
+              <p class="mb-4"><a href="https://kheyshi.github.io/kylashitan/myreviewonecmascript/myreviewonecmascript.html" class="text-info text-decoration-none">Visit</a></p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img class="w-100 h- img-thumbnail" src="pics\vaccform.jpg" alt="portfolio-item">
+              <h3 class="text-capitalize fs-5 my-2">Vaccination Form</h3>
+              <p class="mb-4"><a href="https://kheyshi.github.io/kylashitan/demopages/form/vaccination.html" class="text-info text-decoration-none">Visit</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Freelancer Available Section -->
+    <section id="freelancer-available" class="freelancer-available py-5 bg-info bg-gradient">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Are you Interested?</p>
+            <h2 class="text-white fs-1 mb-4">I'm Available For Freelancer Projects</h2>
+            <a href="#" id="contact" class="btn btn-outline-light">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonials py-5">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carousel1" data-bs-slide-to="0" class="bg-info active"></li>
+                <li data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-info"></li>
+                <li data-bs-target="#carousel1" data-bs-slide-to="2" class="bg-info"></li>
+              </ol>
+  
+              <div class="carousel-inner p-1">
+                <div class="carousel-item active testi-item mb-5 bg-white shadow-sm rounded p-4">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="img-thumbnail rounded-circle" src="pics/gates.jpg" height="73px" width="73px" alt="author img">
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Bill Gates</h3>
+                      <p class="text-muted m-0">American Business Magnate</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Amazing projects! Keep it up.</p>
+                  <div class="rating text-info">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+  
+                <div class="carousel-item testi-item mb-5 bg-white shadow-sm rounded p-4">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="img-thumbnail rounded-circle" src="pics/elon.jpg" height="73px" width="73px" alt="author img">
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Elon Musk</h3>
+                      <p class="text-muted m-0">CEO of Tesla Motors</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Wow! Please work with me.</p>
+                  <div class="rating text-info">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+  
+                <div class="carousel-item testi-item mb-5 bg-white shadow-sm rounded p-4">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="img-thumbnail rounded-circle" src="pics/jeff.jpg" height="73px" width="73px" alt="author img">
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Jeff Bezos</h3>
+                      <p class="text-muted m-0">American Entrepreneur</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Good quality works.</p>
+                  <div class="rating text-info">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
 
         
-    
+  
         <div class="row">
-            
-            <div class="image">
-                <img src="k-logo.png" alt="">
+          
+          <div class="col-md">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-dark">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">kila@gmail.com</p>
+              </div>
             </div>
-    
-            <form id="forms" action="">
-                <div id="error"></div>
-    
-                <div class="inputBox">
-                    <input id="fullName" type="text" placeholder="name" required>
-                    <input id="email" type="email" placeholder="email" required>
+  
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-info">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <a href="https://www.youtube.com/watch?v=w5lA-b9TC-4" class="text-muted">+63 939 888 1234</a>
+              </div>
+            </div>
+  
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-info">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Visit Office</h3>
+                <p class="text-muted"> University of Immaculate Conception, Davao City Philippines</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-7">
+            <div class="contact-item">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input type="text" placeholder="Your Name"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input type="email" placeholder="Your E-mail"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
                 </div>
-    
-                <div class="inputBox">
-                    <input id="number"type="text" placeholder="number" required>
-                    <input id="message"type="text" placeholder="message" required>
+  
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </div>
                 </div>
-    
-                
-    
-                <input type="submit" value="Submit" class="btn" id="submit">
-    
-            </form>
-    
-        </div>
-    
-    </div>
-    <div class="contactMe">
-        <table>
-            <tr>
-                <th class="me">Contact</th>
-                <th >Me</th>
-            </tr>
-            <tr>
-            <td>Gmail</td>
-            <td>akeyshi3@gmail.com</td>
-            </tr>
-            <tr>
-                <td>Phone Number</td>
-                <td>09123123456</td>
-            </tr>
-        </table>
+  
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea rows="5" placeholder="Your Message"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="btn btn-info px-3" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          
 
-    </div>
+        </div>
+      </div>
+      
+      <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+   
+
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+      mapboxgl.accessToken =
+      'pk.eyJ1IjoibWFwYm94aGlob28xMjMiLCJhIjoiY2t1NWw2cnZ6NTI5dDMwbXBrODZkOGI5byJ9.zmkSLgDbHCIXtoA0J2CAdg'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [125.60027, 7.07012],
+        zoom: 15,
+      })
+    </script>
+  
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; 2021 Keyshi</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
