@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="webappidea.css">
+    <title>DencityTraQR</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container">
+          <a href="#" class="navbar-brand">DencityTracQR</a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact Info</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Showcase -->
+      <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1><span class="text-info"> Density tracker </span> web app</h1>
+            <p class="lead my-4">
+              A web application that monitors the population density of each place and establishment and shown through digital maps. 
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+             Learn More
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="shop.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  
+      <!-- Newsletter -->
+      <section class="bg-secondary text-light p-4">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+  
+            <div class="input-group news-input">
+              <input type="text" class="form-control" placeholder="Enter Email" />
+              <button class="btn btn-dark btn-lg" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">About</h2>
+              </div>
+            </div>
+          </div>
+          <div class= "about-text">
+          <div class="container">
+              <p class="text-justify">
+                DencityTraQR is a web application that monitors the population density of 
+                each place and establishment in Davao city with the use of the data from contact 
+                tracing providers and with digital maps. This is to ensure that customers can have 
+                the necessary information before going outside and for business owners to create plans 
+                to effectively control the visitors in their shops. Aside from that, it provides a convenient 
+                way to store multiple QR codes for various areas through the My QR feature.   
+              </p>
+
+              <p class="text-justify">
+                Our application may have similarities to existing ones. These include SafeDavaoQR, DOLE QR for 
+                COVID-19, and Waitz by UC San Diego. One of the main differences between the three is that DencityTraQR 
+                relies on contact tracing providers such as SafeDavaoQR as data providers and does not employ physical 
+                sensors, effectively lowering the cost for maintenance.
+              </p>
+
+              <p class="text-justify">
+                The target market for our web application is for the people living in Davao city who are business owners 
+                and customers who frequently go outside for various needs. As of 2020, the city currently has 1.8 million 
+                residents. Furthermore, we specifically want to help almost 40% of Davaoenos who are part of the dependent 
+                population as they are the ones who are most vulnerable during these times.
+              </p>
+
+              <p class="text-justify">
+                The business model of DencityTraQR is to rely on the revenues generated on advertisements and donations from kind 
+                individuals who see the value of these kinds of websites. In the future, we will plan to provide paid subscription 
+                service for businesses that provide an additional set of tools to manage their shops.
+              </p>
+
+              <p class="text-justify">
+                Our way of going to shops and conducting businesses will never be the same as before. But with DencityTraQR, we 
+                can slowly go back to the joy of pre-pandemic days in a safe manner.
+              </p>
+
+          </div>
+          </div>
+
+      </section>
+
+      <section id="portfolio" class="portfolio py-5">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">Learn More</h2>
+              </div>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                <img class="w-100 img-thumbnail" src="DencityTraQR.png" alt="portfolio-item">
+                <h3 class="text-capitalize fs-5 my-2">Dencity TracQR Website</h3>
+                <p class="mb-4"><a href="https://dencitytraqr-scriptkiddies.herokuapp.com/#/" class="text-primary text-decoration-none">Visit Website</a></p>
+              </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                <img class="w-100 img-thumbnail" src="pptslides.png" alt="portfolio-item">
+                <h3 class="text-capitalize fs-5 my-2">NSDB Slides</h3>
+                <p class="mb-4"><a href="https://docs.google.com/presentation/d/1DLyDCZDNDm0AY_b9zOIpYMNpH-P0bq0fZEao0v3iPsE/edit#slide=id.p" class="text-primary text-decoration-none">View Slides</a></p>
+              </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                <video  class="w-100 img-thumbnail" controls="controls"> 
+                  
+                  <source src="DencityTraQR - concept video.mp4" 
+                      type="video/mp4"> 
+              </video> 
+                <h3 class="text-capitalize fs-5 my-2">Concept Video</h3>
+                <p class="mb-4"><a href="https://drive.google.com/file/d/1wdUWOIWLCYs8hTvR9lsVw1JEicMOxM7D/view?fbc
+                  lid=IwAR0yxL1etbkJOQcUFON1OB88LmncdYEPt4N9D_cQaB6_YYemVcPxdPUA0mE" class="text-primary text-decoration-none">View Video</a></p>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+  
+    
+  
+      <!-- Contact & Map -->
+      <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-4">Contact Info</h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <span class="fw-bold">Office Location:</span> UIC Davao City
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Email:</span> app@gmail.com
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Telephone Number:</span> (123) 888-2468
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Phone number:</span> 09123654321
+                  
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Other Concerns:</span>
+                  app.concerns@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+     
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+      ></script>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+      <script>
+        mapboxgl.accessToken =
+        'pk.eyJ1IjoibWFwYm94aGlob28xMjMiLCJhIjoiY2t1NWw2cnZ6NTI5dDMwbXBrODZkOGI5byJ9.zmkSLgDbHCIXtoA0J2CAdg'
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [125.60027, 7.07012],
+          zoom: 15,
+        })
+      </script>
+
+      
+    
+      
+</body>
+</html>
